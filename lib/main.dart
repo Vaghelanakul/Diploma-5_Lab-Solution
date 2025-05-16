@@ -6,6 +6,7 @@ import 'Lab4/Practical4.dart';
 import 'Lab4/Practical5.dart';
 import 'Lab5/Practical1.dart';
 import 'Lab5/Practical2.dart';
+import 'Lab5/Practical3.dart';
 
 void main(){
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TextFieldDemo(),
+      home: LoginScreen(),
     );
   }
 }

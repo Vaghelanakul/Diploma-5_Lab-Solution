@@ -1,5 +1,4 @@
 // 2. W.A.P. to find percentage of 5 subject. (A)
-import 'dart:io';
 
 void main() {
   double sub1 = 60;

@@ -11,6 +11,7 @@ import 'Lab6/Practical1.dart';
 import 'Lab6/Practical2.dart';
 import 'Lab7/Practical1.dart';
 import 'Lab7/Practical2.dart';
+import 'Lab7/Practical3.dart';
 
 void main(){
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: StackWidgetDemo(),
+      home: BirthDayCard(),
     );
   }
 }

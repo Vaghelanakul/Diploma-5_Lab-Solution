@@ -10,7 +10,7 @@ class SimpleCalculator extends StatefulWidget {
 class _SimpleCalculatorState extends State<SimpleCalculator> {
   TextEditingController num1 = TextEditingController();
   TextEditingController num2 = TextEditingController();
-  String result = ""; // To store result
+  String result = "";
 
   void calculate(String operator) {
     double val1 = double.tryParse(num1.text) ?? 0;

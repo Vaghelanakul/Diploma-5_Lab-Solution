@@ -1,12 +1,28 @@
-// W.A.P. to count number of even or odd number from an array of n numbers. (A)
 import 'dart:io';
 
 void main() {
-  print("enter number:");
+  stdout.write("Enter the number of elements: ");
   int n = int.parse(stdin.readLineSync()!);
-  if (n % 2 == 0) {
-    print("$n is even");
-  } else {
-    print("$n is odd");
+
+  List<int> numbers = [];
+
+  for (int i = 0; i < n; i++) {
+    stdout.write("Enter number ${i + 1}: ");
+    int num = int.parse(stdin.readLineSync()!);
+    numbers.add(num);
   }
+
+  int evenCount = 0;
+  int oddCount = 0;
+
+  for (int i in numbers) {
+    if (i % 2 == 0) {
+      evenCount++;
+    } else {
+      oddCount++;
+    }
+  }
+
+  print("Number of even numbers: $evenCount");
+  print("Number of odd numbers: $oddCount");
 }

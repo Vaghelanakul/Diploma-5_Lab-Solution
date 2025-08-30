@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:student_crud/Lab18/loginScreen.dart';
+import '../Lab18/loginScreen.dart';
 import '../Lab17/myDatabase.dart';
 import '../Lab17/studentModel.dart';
 

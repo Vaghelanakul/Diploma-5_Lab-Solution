@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:student_crud/Lab17/studentModel.dart';
+import '../Lab17/studentModel.dart';
 
 class StudentDetailScreen extends StatelessWidget {
   final Student student;

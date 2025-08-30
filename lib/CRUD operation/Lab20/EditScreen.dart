@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:student_crud/Lab17/myDatabase.dart';
-import 'package:student_crud/Lab17/studentModel.dart';
+import '../Lab17/myDatabase.dart';
+import '../Lab17/studentModel.dart';
 
 class EditScreen extends StatefulWidget {
   final Student student;

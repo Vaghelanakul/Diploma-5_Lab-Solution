@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:student_crud/Lab17/myDatabase.dart';
-import 'package:student_crud/Lab17/studentModel.dart';
-import 'package:student_crud/Lab18/insertScreen.dart';
+import '../Lab17/myDatabase.dart';
+import '../Lab17/studentModel.dart';
+import '../Lab18/insertScreen.dart';
 
 import '../Lab19/HomeScreen.dart';
 

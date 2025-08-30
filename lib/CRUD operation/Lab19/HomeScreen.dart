@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:student_crud/Lab17/studentModel.dart';
+import '../Lab17/studentModel.dart';
 import '../Lab17/myDatabase.dart';
-import 'package:student_crud/Lab18/insertScreen.dart';
-import 'package:student_crud/Lab19/studentDetailScreen.dart';
+import '../Lab18/insertScreen.dart';
+import '../Lab19/studentDetailScreen.dart';
 import '../Lab20/EditScreen.dart';
 
 class DisplayStudent extends StatefulWidget {

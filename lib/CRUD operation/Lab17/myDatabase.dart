@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:student_crud/Lab17/studentModel.dart';
+import '../Lab17/studentModel.dart';
 
 
 class DatabaseHelper {
